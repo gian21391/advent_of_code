@@ -10,7 +10,7 @@
 #include <ranges>
 #include <stack>
 
-char matching_parentesys(char p) {
+char matching_parenthesis(char p) {
   if (p == '(') return ')';
   if (p == '[') return ']';
   if (p == '{') return '}';
@@ -31,7 +31,7 @@ int main() {
         context.push(c);
       }
       else {
-        if (c == matching_parentesys(context.top())) context.pop();
+        if (c == matching_parenthesis(context.top())) context.pop();
         else {
           skip = true;
           break;
