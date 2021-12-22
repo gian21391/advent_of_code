@@ -6,6 +6,7 @@
     "spdlog",
     "nlohmann-json",
     "catch2",
-    "boost-graph"
+    "boost-graph",
+    "range-v3"
   ]
 }
