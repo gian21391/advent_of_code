@@ -49,9 +49,9 @@ int main() {
     lines.emplace_back(l);
   }
 
-  space.resize(max_x + 1);
+  space.resize(max_y + 1);
   for (auto& item : space) {
-    item.resize(max_y + 1);
+    item.resize(max_x + 1);
   }
 
   for (const auto& item : lines) {
