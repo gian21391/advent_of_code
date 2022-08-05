@@ -9,6 +9,7 @@
 #include <map>
 #include <regex>
 #include <ranges>
+#include <algorithm>
 
 int main() {
   auto file = std::ifstream("../day14/input");

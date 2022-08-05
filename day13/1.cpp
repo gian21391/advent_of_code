@@ -13,6 +13,7 @@
 #include <cassert>
 #include <numeric>
 #include <ranges>
+#include <algorithm>
 
 int main() {
   auto file = std::ifstream("../day13/input");

@@ -9,6 +9,7 @@
 #include <algorithm>
 #include <ranges>
 #include <stack>
+#include <vector>
 
 char matching_parenthesis(char p) {
   if (p == '(') return ')';

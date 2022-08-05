@@ -7,6 +7,7 @@
 #include <fstream>
 #include <cassert>
 #include <vector>
+#include <string>
 
 int main() {
   auto file = std::ifstream("../day1/input");

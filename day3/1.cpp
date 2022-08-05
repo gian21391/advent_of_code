@@ -8,7 +8,6 @@
 #include <fstream>
 #include <cassert>
 #include <vector>
-#include <tuple>
 #include <iostream>
 
 struct bit_values {

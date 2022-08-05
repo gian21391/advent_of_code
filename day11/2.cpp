@@ -9,6 +9,7 @@
 #include <algorithm>
 #include <ranges>
 #include <set>
+#include <vector>
 
 void flashing(std::vector<std::vector<int>>& map, std::set<std::pair<int, int>>& flashing_list, std::pair<int, int> f) {
   if (!flashing_list.emplace(f).second) return;

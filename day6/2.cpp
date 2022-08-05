@@ -11,6 +11,7 @@
 #include <cassert>
 #include <vector>
 #include <deque>
+#include <algorithm>
 
 struct fish_t {
   explicit fish_t(int counter) : _counter(counter) {}

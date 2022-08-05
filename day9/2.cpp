@@ -9,6 +9,7 @@
 #include <set>
 #include <algorithm>
 #include <ranges>
+#include <vector>
 
 void explore(int i, int j, const std::vector<std::vector<int>>& map, std::set<std::pair<int, int>>& visited) {
 

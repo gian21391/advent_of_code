@@ -13,6 +13,7 @@
 #include <cassert>
 #include <numeric>
 #include <ranges>
+#include <algorithm>
 
 void print(const std::vector<std::vector<int>>& v) {
   for (int i = 0; i < v.begin()->size(); ++i) {
