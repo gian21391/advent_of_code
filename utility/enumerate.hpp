@@ -6,6 +6,7 @@
 #pragma once
 
 #include <algorithm>
+#include <tuple>
 
 template <typename T,
          typename TIter = decltype(std::ranges::begin(std::declval<T>())),
