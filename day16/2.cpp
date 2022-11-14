@@ -91,6 +91,7 @@ std::size_t unpack(auto& packet, packet_t& structure) {
 
   structure.version = std::stoi(range_to_string(fragment_v | ranges::views::take(3)), nullptr, 2);
   structure.type_id = std::stoi(range_to_string(fragment_v | ranges::views::drop(3) | ranges::views::take(3)), nullptr, 2);
+  structure.content = 0;
   fragment_v = fragment_v | ranges::views::drop(6);
 
   if (structure.type_id == 4) {
