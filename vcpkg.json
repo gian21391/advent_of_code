@@ -7,6 +7,7 @@
     "nlohmann-json",
     "catch2",
     "boost-graph",
-    "range-v3"
+    "range-v3",
+    "ms-gsl"
   ]
 }
